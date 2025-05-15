@@ -16,3 +16,9 @@ jobs:
         run: echo "Hola Mundo 4"
       - name: Saludo 5
         run: echo "Hola Mundo 5"
+
+  other:
+    runs-on: ubuntu-latest
+    steps:
+      - name: LS
+        run: ls -al
